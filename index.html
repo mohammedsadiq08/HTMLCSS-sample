@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="utf-8">
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' /><![endif]-->
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Title | Helper.css</title>
+<meta name="author" content="sadiq">
+
+
+
+<!-- Style-->
+<link rel="stylesheet" href="css/materialize.min.css">
+<link rel="stylesheet" href="fonts/material-icons.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/tooltipster.bundle.min.css">
+<link rel="stylesheet" href="css/tooltipster-sideTip-punk.min.css">
+<link rel="stylesheet" href="css/helper.css">
+<link rel="stylesheet" href="css/style.css">
+
+
+
+
+
+
+
+<body class="black">
+
+
+	<!--Some overlay header-->
+	<header>
+		<div class="navbar-fixed font-condensed">
+			<nav class="dark-grey">
+				<div class="nav-wrapper">
+					<a href="#" data-activates="side-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+					<div class="container">
+						<a href="#" class="brand-logo">Brand</a>
+						<ul class="right hide-on-med-and-down">
+							<li class="active"><a class="" href="index.html">Main</a></li>
+							<li><a class="" href="about.html">About</a></li>
+							<li><a class="" href="faq.html">FAQ</a></li>
+							<li><a class="" href="contact.html">CONTACT</a></li>
+							<li><a class="waves-effect waves-light btn pink darken-1 modal-trigger" href="#loginmodal">Login</a></li>
+						</ul>
+					</div>
+					<ul class="side-nav dark-navy-2" id="side-nav">
+						<div class="userView">
+							<div class="background  green accent-3">
+							</div>
+						</div>
+						<li><a class="white-text" href="">Product</a></li>
+						<li><a class="white-text" href="">Partners</a></li>
+						<li><a class="white-text" href="">Pricing</a></li>
+						<li><a class="waves-effect waves-light btn pink darken-1 modal-trigger" href="#loginmodal">Login</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+
+	<!--Main-->
+	<main>
+		<section>
+			<div class="container">
+				<div class="card-panel dark-grey white-text charting ">
+					<div class="left">
+						<a class="settings modal-trigger" href="#SettingsModal"> <i class="material-icons">settings</i></a>
+						<div class="flex-fixed">
+							<div class="select-stocks">
+								<div class="input-field">
+									<select>
+									  <option value="" disabled selected>Choose your stocks</option>
+									  <option value="1">Option 1</option>
+									  <option value="2">Option 2</option>
+									  <option value="3">Option 3</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="right">
+						<div class="chip chip-active">Days</div>
+						<div class="chip">Weeks</div>
+						<div class="chip">Months</div>
+					</div>
+					<div class="clearfix"></div>
+					<div class="chart-panel">
+						<div id="chart">
+							<svg width="100%" height="284">
+								<rect x="0" y="0" width="82.6rem" height="400" fill="black" />
+								<g>
+									<g>
+										<g>
+											<rect x="50" y="264" width="79rem" height="1" stroke="none" stroke-width="0" fill="#222"></rect>
+											<rect x="50" y="218" width="79rem" height="1" stroke="none" stroke-width="0" fill="#222"></rect>
+											<rect x="50" y="172" width="79rem" height="1" stroke="none" stroke-width="0" fill="#222"></rect>
+											<rect x="50" y="126" width="79rem" height="1" stroke="none" stroke-width="0" fill="#222"></rect>
+											<rect x="50" y="80" width="79rem" height="1" stroke="none" stroke-width="0" fill="#222"></rect>
+											<rect x="50" y="34" width="79rem" height="1" stroke="none" stroke-width="0" fill="#222"></rect>
+										</g>
+										<g>
+											<g class="bold-stroke tooltip" title="<span class='chart-tooltip' >Hell yeah!</span>">
+												<rect x="100" y="66" width="2" height="76" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="90" y="89" width="20" height="28" stroke="#3366cc" stroke-width="2" fill="green"></rect>
+											</g>
+											<g class="bold-stroke tooltip" title="<span class='chart-tooltip' >Hell yeah!</span>">
+												<rect x="200" y="66" width="2" height="86" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="190" y="99" width="20" height="28" stroke="#3366cc" stroke-width="2" fill="red"></rect>
+												
+											</g>
+											<g class="bold-stroke tooltip" title="<span class='chart-tooltip' >Hell yeah!</span>">
+												<rect x="300" y="66" width="2" height="66" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="290" y="79" width="20" height="28" stroke="#3366cc" stroke-width="2" fill="red"></rect>
+											</g>
+											<g class="bold-stroke tooltip" title="<span class='chart-tooltip' >Hell yeah!</span>">
+												<rect x="400" y="66" width="2" height="76" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="390" y="59" width="20" height="28" stroke="#3366cc" stroke-width="2" fill="green"></rect>
+											</g>
+											<g class="bold-stroke tooltip" title="<span class='chart-tooltip' >Hell yeah!</span>">
+												<rect x="500" y="66" width="2" height="56" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="490" y="89" width="20" height="28" stroke="#3366cc" stroke-width="2" fill="#fff"></rect>
+											</g>
+											<g class="bold-stroke tooltip" title="<span class='chart-tooltip' >Hell yeah!</span>">
+												<rect x="600" y="66" width="2" height="36" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="590" y="69" width="20" height="28" stroke="#3366cc" stroke-width="2" fill="orange"></rect>
+											</g>
+											<g class="bold-stroke tooltip" title="<span class='chart-tooltip' >Hell yeah!</span>">
+												<rect x="700" y="66" width="2" height="96" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="690" y="39" width="20" height="48" stroke="#3366cc" stroke-width="2" fill="#3366cc"></rect>
+											</g>
+											<g class="bold-stroke tooltip" title="<span class='chart-tooltip' >Hell yeah!</span>">
+												<rect x="800" y="66" width="2" height="88" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="790" y="79" width="20" height="28" stroke="#3366cc" stroke-width="2" fill="#fff"></rect>
+											</g>
+											<g class="bold-stroke tooltip" title="<span class='chart-tooltip' >Hell yeah!</span>">
+												<rect x="900" y="66" width="2" height="96" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="890" y="109" width="20" height="38" stroke="#3366cc" stroke-width="2" fill="green"></rect>
+											</g>
+											<g class="bold-stroke tooltip" title="<span class='chart-tooltip' >Hell yeah!</span>">
+												<rect x="1000" y="66" width="2" height="76" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="990" y="99" width="20" height="28" stroke="#3366cc" stroke-width="2" fill="red"></rect>
+											</g>
+											<g class="bold-stroke tooltip" title="<span class='chart-tooltip' >Hell yeah!</span>">
+												<rect x="1100" y="66" width="2" height="56" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="1090" y="69" width="20" height="28" stroke="#3366cc" stroke-width="2" fill="red"></rect>
+											</g>
+											<g class="bold-stroke tooltip" title="<span class='chart-tooltip' >Hell yeah!</span>">
+												<rect x="1200" y="66" width="2" height="46" stroke="none" stroke-width="0" fill="#3366cc"></rect><rect x="1190" y="80" width="20" height="28" stroke="#3366cc" stroke-width="2" fill="green"></rect>
+											</g>
+											
+										</g>
+									</g>
+									<g>
+										<g>
+											<text text-anchor="middle" x="100" y="280" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">123</text>
+										</g>
+										<g>
+											<text text-anchor="middle" x="200" y="280" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">244</text>
+										</g>
+										<g>
+											<text text-anchor="middle" x="300" y="280" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">786</text>
+										</g>
+										<g>
+											<text text-anchor="middle" x="400" y="280" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">856</text>
+										</g>
+										<g>
+											<text text-anchor="middle" x="500" y="280" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">124</text>
+										</g>
+										<g>
+											<text text-anchor="middle" x="600" y="280" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">123</text>
+										</g>
+										<g>
+											<text text-anchor="middle" x="700" y="280" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">244</text>
+										</g>
+										<g>
+											<text text-anchor="middle" x="800" y="280" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">786</text>
+										</g>
+										<g>
+											<text text-anchor="middle" x="900" y="280" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">856</text>
+										</g>
+										<g>
+											<text text-anchor="middle" x="1000" y="280" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">124</text>
+										</g>
+										<g>
+											<text text-anchor="middle" x="1100" y="280" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">786</text>
+										</g>
+										<g>
+											<text text-anchor="middle" x="1200" y="280" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">856</text>
+										</g>
+										<g>
+											<text text-anchor="end" x="40" y="270" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">0</text>
+										</g>
+										<g>
+											<text text-anchor="end" x="40" y="224" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">25</text>
+										</g>
+										<g>
+											<text text-anchor="end" x="40" y="178" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">50</text>
+										</g>
+										<g>
+											<text text-anchor="end" x="40" y="132" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">75</text>
+										</g>
+										<g>
+											<text text-anchor="end" x="40" y="88" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">100</text>
+										</g>
+										<g>
+											<text text-anchor="end" x="40" y="40" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#cccccc">125</text>
+										</g>
+									</g>
+								</g>
+							</svg>
+						</div>
+					</div>
+					<div class="scroller">
+						<svg width="100%" height="20">
+							<rect rx="5" ry="5" width="100%" height="20" style="fill:black;" />							
+							<rect x="48%" y="2" rx="5" ry="5" width="4%" height="16" fill="white" />
+						</svg>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="full-sz flex-fixed space-between">
+					<div style="width:75.5%">
+						<div id="settings" class="full-sz  card-panel dark-grey white-text">
+							<div class="full-sz flex-fixed space-between">
+								<div>
+									<div class="flex-fixed space-between player">
+										<div class="btn-floating waves-effect waves-light black"><i class="material-icons">skip_previous</i></div>
+										<div class="btn-floating waves-effect waves-light black"><i class="material-icons">pause</i></div>
+										<div class="btn-floating waves-effect waves-light black"><i class="material-icons">skip_next</i>
+										</div>
+									</div>
+								</div>
+								<div class="col-three">Width: 65 bars
+									<p class="range-field no-margin">
+										<input type="range" id="testw" min="0" max="100" />
+									</p>
+								</div>
+								<div class="col-three ">Speed: 20 bars/sec
+									<p class="range-field no-margin">
+										<input type="range" id="testSW" min="0" max="100" />
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style="width:24%">
+						<div id="trade-ticket" class="full-sz card-panel dark-grey white-text">
+							<div class="full-sz flex-fixed space-between">
+								<div class="col-three"><a class="btn btn-small waves-effect waves-light red">Buy</a><br>5000</div>
+								<div class="col-three">
+									<div id="trade-size">
+										<div class="input-field">
+											<input id="input_size" class="browser-default" type="number" value="0.5" min="0">
+											<label for="input_text">Size</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-three">
+									<div class="right"><a class="btn btn-small waves-effect waves-light green">Sell</a>
+										<div class="right-align">50000</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container margin-sm-ver">
+				<div id="test-swipe-1" class="col s12 dark-grey">
+					<div class="y-scrollable">
+						<table class="hoverable centered striped responsive-table">
+							<thead class="dark-navy-3">
+								<tr>
+									<th>#</th>
+									<th>Open Time</th>
+									<th>Type</th>
+									<th>Size</th>
+									<th>Symbol</th>
+									<th>Open</th>
+									<th>Current</th>
+									<th>Pips</th>
+									<th>P.L</th>
+									<th>Close</th>
+								</tr>
+							</thead>
+
+							<tbody>
+								<tr>
+									<td>4</td>
+									<td>3/1/2000</td>
+									<td>SELL</td>
+									<td>1</td>
+									<td>EURUSD</td>
+									<td>1.018</td>
+									<td>1.0243</td>
+									<td>-63</td>
+									<td>-630</td>
+									<td class="red-text"><b>x</b></td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>3/1/2000</td>
+									<td>SELL</td>
+									<td>1</td>
+									<td>EURUSD</td>
+									<td>1.018</td>
+									<td>1.0243</td>
+									<td>-63</td>
+									<td>-630</td>
+									<td class="red-text"><b>x</b></td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>3/1/2000</td>
+									<td>SELL</td>
+									<td>1</td>
+									<td>EURUSD</td>
+									<td>1.018</td>
+									<td>1.0243</td>
+									<td>-63</td>
+									<td>-630</td>
+									<td class="red-text"><b>x</b></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div id="test-swipe-2" class="col s12 dark-navy-2">
+					<div class="y-scrollable">
+						<table class="hoverable centered striped responsive-table">
+							<thead class="dark-navy-3">
+								<tr>
+									<th>#</th>
+									<th>Open Date</th>
+									<th>Open Time</th>
+									<th>Type</th>
+									<th>Size</th>
+									<th>Symbol</th>
+									<th>Open Price</th>
+									<th>Close Date</th>
+									<th>Close Time</th>
+									<th>Close Price</th>
+									<th>Pips</th>
+									<th>P&amp;L</th>
+								</tr>
+							</thead>
+
+							<tbody>
+								<tr>
+									<td>#</td>
+									<td>3/2/1800</td>
+									<td>1:20</td>
+									<td>SELL</td>
+									<td>1</td>
+									<td>EURUSD</td>
+									<td>1.0235</td>
+									<td>3/2/1800</td>
+									<td>04:55</td>
+									<td>1.0681</td>
+									<td>-28</td>
+									<td>-$234</td>
+								</tr>
+
+								<tr>
+									<td>#</td>
+									<td>3/2/1800</td>
+									<td>1:20</td>
+									<td>SELL</td>
+									<td>1</td>
+									<td>EURUSD</td>
+									<td>1.0235</td>
+									<td>3/2/1800</td>
+									<td>04:55</td>
+									<td>1.0681</td>
+									<td>-28</td>
+									<td>-$234</td>
+								</tr>
+								<tr>
+									<td>#</td>
+									<td>3/2/1800</td>
+									<td>1:20</td>
+									<td>SELL</td>
+									<td>1</td>
+									<td>EURUSD</td>
+									<td>1.0235</td>
+									<td>3/2/1800</td>
+									<td>04:55</td>
+									<td>1.0681</td>
+									<td>-28</td>
+									<td>-$234</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div id="test-swipe-3" class="col s12 ">
+					<div class="y-scrollable">
+						<div class="card-panel greener white-text full-sz" style="margin-top:0">
+							<div class="row">
+								<div class="col m4">Total net profit: $1,890 <br>No. of trades: 7</div>
+								<div class="col m4">0% of initial Capital <br>Agg. Volume $713,075</div>
+								<div class="col m4">Annualized return: 6.9% p.a. <br>Avg Size: 1</div>
+								<div class="col m4">Number of wins: 4 (57% of total) <br>Short positions: 3 (43% of total; 33% wins) <br>Gross profit: $3,555 (9% shors, 91% longs) <br>Max drawdown: $895 (0% of initial capital)</div>
+								<div class="col m4"><span class="red-text">Number of lossess: 3 (43% of total) </span><br>Long positions: 3 (43% of total; 33% wins) <br>Gross loss: $3,555 (9% shorts, 91% longs) <br>Max underwater period: $895 (0% of initial capital)</div>
+								<div class="col m4"><br><a class="circle btn-large hoverable waves-effect waves-light blue"><i class="material-icons">cloud_download</i></a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<ul id="tabs-swipe-demo" class="tabs dark-grey">
+					<li class="tab col s3"><a class="active white-text" href="#test-swipe-1">OPEN</a></li>
+					<li class="tab col s3"><a class="white-text" href="#test-swipe-2">CLOSED</a></li>
+					<li class="tab col s3"><a class="white-text" href="#test-swipe-3">RESULT</a></li>
+				</ul>
+			</div </section>
+			<section>
+				<div id="loginmodal" class="modal col-three-fixed dark-navy-2">
+					<div class="modal-content no-padding">
+						<div class="col s12">
+							<ul class="tabs tabs-fixed-width flex-strech transparent white-text z-depth-3">
+								<li class="tab col s4"><a class="active" href="#test1"><strong>Login</strong></a></li>
+								<li class="tab col s4"><a href="#test2"><strong>Register</strong></a></li>
+							</ul>
+						</div>
+						<div id="test1" class="col s12 white-text">
+							<div class="padding-sm">
+								<div class="row">
+									<form id="login" class="col s12">
+										<div class="row">
+											<div class="input-field col s12">
+												<input id="email" type="text" class="validate">
+												<label for="email">Username/Email</label>
+											</div>
+										</div>
+										<div class="row">
+											<div class="input-field col s12">
+												<input id="password" type="password" class="validate">
+												<label for="password">Password</label>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col s6">
+												<button class="btn waves-effect pink darken-1 waves-light" type="submit" name="action">Login</button>
+											</div>
+											<div class="col s6">
+												<p class="no-margin padding-sm">
+													<input type="checkbox" id="remember" />
+													<label for="remember">Remember me</label>
+												</p>
+											</div>
+										</div><br>
+										<div class="center"><a href=""><span class="grey-text text-darken-2 underline">Forgot Password ?</span></a></div>
+										<br><br>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div id="test2" class="col s12 white-text">
+							<div class="padding-sm">
+								<div class="row">
+									<form id="register" class="col s12">
+										<div class="row">
+											<div class="input-field col s6">
+												<input id="first_name" type="text" class="validate">
+												<label for="first_name">First Name</label>
+											</div>
+											<div class="input-field col s6">
+												<input id="last_name" type="text" class="validate">
+												<label for="last_name">Last Name</label>
+											</div>
+										</div>
+										<div class="row">
+											<div class="input-field col s12">
+												<input id="email" type="email" class="validate">
+												<label for="email">Email</label>
+											</div>
+										</div>
+										<div class="row">
+											<div class="input-field col s12">
+												<input id="password" type="password" class="validate">
+												<label for="password">Password</label>
+											</div>
+											<i id="viewpw" class="material-icons right-align">visibility</i>
+										</div>
+										<div class="row">
+											<div class="input-field col s12">
+												<input id="re-password" type="password" class="validate">
+												<label for="re-password">Reenter Password</label>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col s6">
+												<button class="btn waves-effect pink darken-1 waves-light" type="submit" name="action">Register</button>
+											</div>
+										</div>
+										<br>
+										<br>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="SettingsModal" class="modal col-full-fv white-text dark-navy-2">
+					<div class="modal-content">
+						<div class="row border-bottom">
+							<div class="col s6">
+								<div class="">
+									<h4>Account Info</h4>
+									<div class="right"><a href="" class="btn-floating red"><i class="material-icons tooltip" title="<span class='chart-tooltip' >Sign Out!</span>">exit_to_app</i> </a></div>
+									<p>Username: <b>Someone@something</b> </p>
+									<div id="chpwd">
+										<p>
+											<a class="btn grey">Change Password</a>
+										</p>
+										<br><br><br><br><br>
+									</div>
+									<form id="chpwdialog" class="hide">
+										<div class="row">
+											<div class="input-field col s4">
+												<input id="oldpassword" type="password" class="validate">
+												<label for="oldpassword">Old Password</label>
+											</div>
+											<div class="input-field col s4">
+												<input id="chpassword" type="password" class="validate">
+												<label for="chpassword">Password</label>
+											</div>
+											<div class="input-field col s4">
+												<input id="chre-password" type="password" class="validate">
+												<label for="chre-password">Reenter Password</label>
+											</div>
+										</div><br>
+										<div class="row"><a id="nochpwd" class="btn grey">Cancel</a> <a class="btn blue">Save</a></div><br>
+									</form>
+								</div>
+							</div>
+							<div class="col s6 border-left">
+								<h4>Trade Settings</h4>
+								<div class="full-sz flex-fixed space-between">
+									<div>
+										<p>
+											<input type="checkbox" id="check" />
+											<label for="check">Measure FPS</label>
+										</p>
+									</div>
+									<div>
+										<p>
+											<input type="checkbox" id="check2" checked="checked" />
+											<label for="check2">Force Open</label>
+										</p>
+									</div>
+									<div class="input-field" style="margin-top:-0.2rem;">
+										<select>
+											  <option value="" selected>Oldest Stocks</option>
+											  <option value="1">Option 1</option>
+											  <option value="2">Option 2</option>
+											  <option value="3">Option 3</option>
+										</select>
+										<label>Force open</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col s4">
+										<div class="input-field">
+											<input id="initcap" type="text" value="$2000" class="validate">
+											<label for="initcap">Initial Capital:</label>
+										</div>
+									</div>
+									<div class="col s4">
+										<div class="input-field">
+											<input id="tr-leng" type="text" value="150" class="validate">
+											<label for="tr-leng">Length:</label>
+										</div>
+									</div>
+									<div class="col s4">
+										<div class="input-field">
+											<input id="tr-date" type="text" class="datepicker" value="14 September,2017">
+											<label for="tr-date">Start Date:</label>
+										</div>
+									</div>
+								</div>
+								<div class="row"><a class="btn grey">Reset</a> <a class="btn blue">Save</a></div><br>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s6">
+								<h4>User Statistics</h4>
+								<div class="row">
+									<div class="col s6">Field 1: A</div>
+									<div class="col s6">Field 2: B</div>
+									<div class="col s6">Field 3: C</div>
+									<div class="col s6">Field 4: X</div>
+									<div class="col s6">Field 5: Y</div>
+									<div class="col s6">Field 6: Z</div>
+								</div>
+							</div>
+							<div class="col s6 border-left">
+								<h4>Past Sessions</h4>
+								<div>
+									<div class="y-scrollable">
+										<table class="hoverable centered striped responsive-table">
+											<thead class="dark-navy-3">
+												<tr>
+													<th>Date</th>
+													<th>Result</th>
+													<th>Load</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>3/1/2000</td>
+													<td>Lorem</td>
+													<td><a class="btn blue">Load</a></td>
+												</tr>
+												<tr>
+													<td>3/1/2000</td>
+													<td>Lorem</td>
+													<td><a class="btn blue">Load</a></td>
+												</tr>
+												<tr>
+													<td>3/1/2000</td>
+													<td>Lorem</td>
+													<td><a class="btn blue">Load</a></td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+	</main>
+
+	<footer class="page-footer">
+		<div class="footer-copyright">
+			<div class="container center">
+				<div class="copyright text-bolder"><small>Copyright © 2017. All Rights Reserved</small></div>
+			</div>
+		</div>
+
+
+	</footer>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/tooltipster.bundle.min.js"></script>
+	<script src="js/init.js"></script>
+	<script src="js/tooltip.js"></script>
+
+</body>
+
+</html>
