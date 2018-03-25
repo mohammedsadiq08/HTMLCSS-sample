@@ -1,1 +1,382 @@
+@charset "UTF-8";
+/*Import Local Roboto Condensed Font Files*/
 
+@import url("../fonts/font-Roboto-Condensed.css");
+
+/*Typography*/
+
+h1 {
+	font-size: 2em;
+	line-height: 1.2em;
+}
+
+h2 {
+	font-size: 2.8em;
+	line-height: 1.2em;
+}
+
+h3 {
+	font-size: 2.6em;
+	line-height: 1.2em;
+}
+
+h4 {
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+h5 {
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+h6 {
+	font-size: 1em;
+	line-height: 1.4em;
+}
+
+.flex-fixed {
+	display: inline-flex;
+}
+
+.flex {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.flex-grow {
+	flex-grow: 1;
+}
+
+.flex-center {
+	justify-content: center;
+}
+
+.flex-strech {
+	align-content: stretch;
+}
+
+.space-around {
+	justify-content: space-around;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.row {
+	margin-bottom: 0;
+}
+
+.col-two,
+.col-three,
+.col-four,
+.col-fv,
+.col-full-fv {
+	width: 100%;
+}
+
+.margin {
+	margin: 15px;
+}
+
+.margin-sm {
+	margin: 10px;
+}
+
+.margin-bg-ver {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.margin-bg-horiz {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.margin-sm-ver {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.margin-sm-horiz {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.no-margin-top {
+	margin-top: 0;
+}
+
+.no-margin-ver {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.no-margin-horiz {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.padding {
+	padding: 15px;
+}
+
+.padding-sm {
+	padding: 5px;
+}
+
+.padding-bg-ver {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.padding-bg-horiz {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.padding-sm-ver {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.padding-sm-horiz {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.no-padding-top {
+	padding-top: 0;
+}
+
+.no-padding-bottom {
+	padding-bottom: 0;
+}
+
+.font-condensed {
+	font-family: "Roboto Condensed", "Roboto", sans-serif;
+}
+
+.font-regular {
+	font-family: "Roboto", sans-serif;
+}
+
+section {
+	overflow: hidden;
+	width: 100%;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+header {
+	z-index: 999;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+.side-nav {
+	width: 240px;
+}
+
+.text-lighter {
+	font-weight: 100;
+}
+
+.text-bolder {
+	font-weight: bolder;
+}
+
+.text-normal {
+	font-weight: normal;
+}
+
+.text-italic {
+	font-style: italic;
+}
+
+.text-capital {
+	text-transform: uppercase;
+}
+
+.text-3d {
+	color: transparent;
+	text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.5);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.small-line {
+	height: 3px;
+	width: 15%;
+	margin: 0 auto;
+	margin-top: -8px;
+	border-radius: 3px;
+	border: 2px solid transparent;
+}
+
+.border-left {
+	border-left: 2px solid black;
+}
+
+.border-bottom {
+	border-bottom: 2px solid black;
+}
+
+.full-sz {
+	width: 100%;
+	height: 100%;
+}
+
+.full-height {
+	height: 100%;
+}
+
+.col-three-fixed {
+	width: 33.33%;
+}
+
+.single-center {
+	display: flex;
+	justify-content: space-around;
+}
+
+.ver-center {
+	align-content: center;
+}
+
+hr.thin {
+	border-width: thin;
+	margin: 5px;
+	border-color: rgba(202, 198, 222, 0.44);
+	border-radius: 10px;
+}
+
+.double-line-stroke {
+	overflow: hidden;
+	text-align: center;
+}
+
+.double-line-stroke:before,
+.double-line-stroke:after {
+	content: "";
+	display: inline-block;
+	height: 5px;
+	border-bottom: 1px solid rgba(34, 16, 111, 0.44);
+	border-top: 1px solid rgba(34, 16, 111, 0.44);
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+}
+
+.double-line-stroke:before {
+	right: 0.5em;
+	margin-left: -50%;
+}
+
+.double-line-stroke:after {
+	left: 0.5em;
+	margin-right: -50%;
+}
+
+
+/*Responsiveness*/
+
+
+/*Width Greater than 601px i.e greater than most mobiles--Ranging for tabs*/
+
+@media screen and (min-width: 601px) {
+	.container {
+		width: 95%;
+	}
+	.col-two,
+	.col-three,
+	.col-four {
+		width: 50%;
+	}
+	.col-fv {
+		width: 29%;
+	}
+	.col-full-fv {
+		width: 70%;
+	}
+	h1 {
+		font-size: 3em;
+	}
+	h2 {
+		font-size: 2.6em;
+	}
+	h3 {
+		font-size: 2.2em;
+	}
+	h4 {
+		font-size: 1.8em;
+	}
+	h5 {
+		font-size: 1.4em;
+	}
+	h6 {
+		font-size: 1.2em;
+	}
+}
+
+
+/*Greater than most tabs i.e Range of Laptops*/
+
+@media screen and (min-width: 993px) {
+	.col-two,
+	.col-three,
+	.col-four,
+	.col-fv {
+		width: 33.33%;
+	}
+	.col-full-fv {
+		width: 66%;
+	}
+	.container {
+		width: 96%;
+	}
+}
+
+
+/*Width Greater than Range of Laptops- Large screen Computers*/
+
+@media screen and (min-width: 1100px) {
+	.col-full-fv {
+		width: 79%;
+	}
+	.col-two {
+		width: 50%;
+	}
+	.col-three {
+		width: 33.33%;
+	}
+	.col-four {
+		width: 25%;
+	}
+	.col-fv {
+		width: 20%;
+	}
+	.container {
+		width: 90%;
+	}
+}

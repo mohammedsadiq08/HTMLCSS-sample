@@ -1,0 +1,282 @@
+/*Global*/
+
+.dark-grey {
+	background-color: #212121;
+}
+
+.dark-navy {
+	background-color: #292b39;
+}
+
+.dark-navy-1 {
+	background-color: #243443;
+}
+
+.dark-navy-2 {
+	background-color: #222c36;
+}
+
+.dark-navy-3 {
+	background-color: #595f6c;
+}
+
+.cool-blue {
+	background-color: #192871;
+}
+
+.cool-green {
+	background-color: #197138;
+}
+
+.greener {
+	background-color: #0d461e;
+}
+
+a {
+	color: white;
+}
+
+.card-panel {
+	margin-bottom: 5px;
+	padding: 10px 20px;
+}
+
+.container .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+/*Navbar*/
+
+.navbar-fixed {
+	height: 50px;
+}
+
+@media only screen and (min-width: 601px) {
+	.navbar-fixed {
+		height: 50px;
+	}
+	nav,
+	nav .nav-wrapper i,
+	nav a.button-collapse,
+	nav a.button-collapse i {
+		height: 50px;
+		line-height: 50px;
+	}
+}
+
+nav ul li.active {
+	background-color: rgba(0, 0, 0, 0.58);
+}
+
+
+/*Login Modal*/
+
+#loginmodal .tabs .tab a.active {
+	background-color: #1f37b7;
+	color: white;
+}
+
+#loginmodal .tabs .tab a {
+	color: #fff;
+	background-color: #212121;
+}
+
+#loginmodal .tabs .tab a:hover {
+	color: #fff;
+}
+
+#loginmodal .tabs .tab a:hover {
+	background-color: grey;
+}
+
+#loginmodal .tabs .indicator {
+	background-color: darkred;
+}
+
+
+/*Register*/
+
+#viewpw {
+	cursor: pointer;
+	position: absolute;
+	right: 10%;
+}
+
+#viewpw:hover {
+	color: blue;
+}
+
+
+/* Select Input*/
+
+.select-wrapper span.caret {
+	color: white;
+}
+
+.select-stocks {
+	margin-left: 15px;
+	position: absolute;
+	top: 40px;
+}
+
+
+/*Settings*/
+
+#SettingsModal {}
+
+
+/*Charting*/
+
+.charting {
+	margin-bottom: 0;
+}
+
+.chart-container {
+	overflow-x: hidden;
+}
+
+.x-axis {
+	margin-bottom: 5px;
+}
+
+.x-axis .x-points {
+	width: 100px;
+	text-align: left;
+}
+
+.x-axis .x-points.right-text {
+	width: auto;
+}
+
+.y-axis {
+	width: auto;
+	margin-right: 10px;
+	float: left;
+}
+
+.y-points {
+	padding-top: 20px;
+}
+
+.chip {
+	background-color: transparent;
+	color: aliceblue;
+}
+
+.chip-active {
+	background-color: #11121d;
+	color: aliceblue;
+}
+
+
+/*svg styles*/
+
+.bold-stroke:hover rect {
+	stroke-width: 3px;
+	stroke: #3366cc;
+}
+
+.tooltipster-sidetip.tooltipster-punk .tooltipster-box {
+	border-bottom: 3px solid #16161d;
+	/*colored line at popup bottom*/
+	background: #171721;
+	/*background of popup*/
+}
+
+span>.chart-tooltip {}
+
+
+/*arrow and border color depending on where the tooltip opens (for example above or below the element)*/
+
+.tooltipster-sidetip.tooltipster-punk.tooltipster-top .tooltipster-arrow-border {
+	border-top-color: #16161d;
+}
+
+.tooltipster-sidetip.tooltipster-punk .tooltipster-content {
+	color: white;
+	padding: 10px 15px;
+	font-family: 'Roboto';
+}
+
+
+/*Controls and Trade-tickets*/
+
+.settings>i {
+	padding: 5px;
+}
+
+.settings:hover>i {
+	padding: 5px;
+	border-radius: 2px;
+	color: black;
+	background: white;
+}
+
+#trade-ticket .input-field {
+	margin-top: 10px;
+}
+
+#trade-ticket .btn-small {
+	margin-top: 20px;
+}
+
+#trade-ticket h3 {
+	font-size: 1.5em;
+}
+
+.player {
+	width: 150px;
+	padding: 3px;
+	border: 3px solid #6f6f75;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+#settings .col-three {
+	margin-top: 20px;
+}
+
+.play-ctrl {
+	margin-bottom: 10px;
+	align-items: center;
+}
+
+#trade-ticket .btn-small {
+	font-size: 1rem;
+	font-weight: bolder;
+	padding: 0 1rem;
+}
+
+
+/*Table and result*/
+
+table.striped>tbody>tr:nth-child(odd) {
+	background-color: #c0c0c0;
+	color: black;
+}
+
+table.striped>tbody>tr:nth-child(even) {
+	background-color: #152372;
+}
+
+table tr {
+	color: white;
+}
+
+.y-scrollable {
+	overflow-y: scroll;
+	height: 200px;
+}
+
+
+/*Footer*/
+
+.footer-copyright {
+	background-color: #212121 !important;
+}
+
+.page-footer {
+	padding-top: 0;
+}

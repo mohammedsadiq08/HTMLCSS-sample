@@ -1,0 +1,136 @@
+.dark-grey {
+	background-color: #212121;
+}
+
+.dark-navy {
+	background-color: #292b39;
+}
+
+.dark-navy-1 {
+	background-color: #243443;
+}
+
+.dark-navy-2 {
+	background-color: #222c36;
+}
+
+.dark-navy-3 {
+	background-color: #595f6c;
+}
+
+.cool-blue {
+	background-color: #192871;
+}
+
+.cool-green {
+	background-color: #197138;
+}
+
+.greener {
+	background-color: #0d461e;
+}
+
+.fixed-height {
+	height: 750px;
+	overflow-y: auto;
+	padding: 0;
+}
+
+.footer-copyright {
+	background-color: #212121 !important;
+}
+
+.page-footer {
+	padding-top: 0;
+}
+
+
+/*Navigtion*/
+
+.navbar-fixed {
+	height: 50px;
+}
+
+@media only screen and (min-width: 601px) {
+	.navbar-fixed {
+		height: 50px;
+	}
+	nav,
+	nav .nav-wrapper i,
+	nav a.button-collapse,
+	nav a.button-collapse i {
+		height: 50px;
+		line-height: 50px;
+	}
+}
+
+nav ul li.active {
+	background-color: rgba(0, 0, 0, 0.58);
+}
+
+
+/*Banner*/
+
+.small-banner {
+	width: 100%;
+	height: 250px;
+	position: absolute;
+}
+
+.top-banner>.bannertext {
+	width: 100%;
+	height: 250px;
+	position: relative;
+	text-transform: uppercase;
+	padding-top: 120px;
+	background-color: rgba(0, 0, 0, 0.67);
+}
+
+.font-condensed strong {
+	font-weight: bolder;
+}
+
+.bannertext .page-title {
+	font-weight: bolder;
+	font-size: 3em;
+}
+
+.small-banner>.bannerimg {
+	width: 100%;
+	height: 250px;
+}
+
+#contact-form .address .material-icons {
+	font-size: 3em;
+}
+
+#pricing .cost {
+	padding: 50px;
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+.tabs .tab a.active {
+	background-color: #212121;
+	color: white;
+}
+
+.tabs .tab a {
+	color: #212121;
+}
+
+.tabs .tab a:hover {
+	color: #fff;
+}
+
+.tabs .tab a:hover {
+	background-color: grey;
+}
+
+.tabs .indicator {
+	background-color: blue !important;
+}
+
+.address .s10 {
+	padding-top: 20px;
+}
